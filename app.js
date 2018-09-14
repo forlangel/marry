@@ -1,7 +1,7 @@
 //app.js
 var api = require('/api/api.js')
-var AppId = 'wxc028256ea6d51af1'
-var AppSecret = '81f336c525fa5cf56384c9442e5735df'
+var AppId = 'wxd9a419b146ff9b1b'
+var AppSecret = '7ce7ac57c371614ff851ffb93dfbb2b4'
 
 App({
   onLaunch: function () {
