@@ -1,16 +1,6 @@
 // pages/home/gridview/gridview.js 
 var id = ''
 //为方便查看数据格式，写死在这里，后续可接口返回
-var imgUrlPs = [
-  'https://pengmaster.com/party/wechat/marry/tai_miao_zip/HY2A0764.jpg',
-  'https://pengmaster.com/party/wechat/marry/tai_miao_zip/HY2A0794.jpg',
-  'https://pengmaster.com/party/wechat/marry/tai_miao_zip/HY2A0769.jpg',
-  'https://pengmaster.com/party/wechat/marry/tai_miao_zip/HY2A0748.jpg',
-  'https://pengmaster.com/party/wechat/marry/tai_miao_zip/HY2A0836.jpg',
-  'https://pengmaster.com/party/wechat/marry/tai_miao_zip/HY2A0716.jpg',
-  'https://pengmaster.com/party/wechat/marry/tai_miao_zip/HY2A0798.jpg',
-  'https://pengmaster.com/party/wechat/marry/tai_miao_zip/HY2A0791.jpg'
-]
 var imgUrlOzfq = [
   'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1165.jpg',
   'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1139.jpg',
@@ -83,12 +73,7 @@ Page({
    */
   previewImage: function(e) {
     var current = e.target.dataset.src;
-    if (id == '别致角楼') {
-      wx.previewImage({
-        current: current, // 当前显示图片的http链接
-        urls: imgUrlPs // 需要预览的图片http链接列表
-      })
-    } else if (id == '欧洲风情'){
+    if (id == '欧洲风情'){
       wx.previewImage({
         current: current, // 当前显示图片的http链接
         urls: imgUrlOzfq // 需要预览的图片http链接列表
@@ -138,44 +123,7 @@ Page({
     var that = this
     id = options.id
     console.log('options.id:' + options.id)
-    if (id == '别致角楼') {
-      that.setData({
-        imgUrls: [{
-          imgUrl: 'https://pengmaster.com/party/wechat/marry/tai_miao_zip/HY2A0764.jpg',
-            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
-          },
-          {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/tai_miao_zip/HY2A0794.jpg',
-            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
-          },
-          {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/tai_miao_zip/HY2A0769.jpg',
-            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
-          },
-          {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/tai_miao_zip/HY2A0748.jpg',
-            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
-          },
-          {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/tai_miao_zip/HY2A0836.jpg',
-            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
-          },
-          {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/tai_miao_zip/HY2A0716.jpg',
-            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
-          },
-          {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/tai_miao_zip/HY2A0798.jpg',
-            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
-          },
-          {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/tai_miao_zip/HY2A0791.jpg',
-            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
-          }
-
-        ]
-      });
-    } else if (id == '欧洲风情') {
+    if (id == '欧洲风情') {
       that.setData({
         imgUrls: [{
           imgUrl: 'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1165.jpg',

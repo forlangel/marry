@@ -75,9 +75,9 @@ page{
   position: absolute;
   z-index: 2;
   left: 50%;
-  bottom: 200rpx;
-  width: 160rpx;
-  height: 160rpx;
+  bottom: 180rpx;
+  width: 220rpx;
+  height: 200rpx;
   margin-left: -80rpx;
   border-radius: 160rpx;
   animation: sway 10s ease-in-out infinite;

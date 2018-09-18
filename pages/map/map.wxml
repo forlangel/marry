@@ -6,14 +6,14 @@
     <view class='datetime' animation="{{animationData}}">
         <view class='box'>
             <view class="name css13610f7ae66601">
-                <span class="fl">Mr.王</span>
+                <span class="fl">Mr.彭</span>
                 <span class="and">&</span>
-                <span class="fr ">Miss.刘</span>
+                <span class="fr ">Miss.齐</span>
             </view>
             <view class="date css13610f7ae66601">
-                <view>谨定于 2018年8月18日</view>
-                <view>农历 2018年七月初八 举办婚礼</view>
-                <view bindtap="markertap">地址：沧州市盐山县庆云镇前簸箕村(点击导航)</view>
+                <view>谨定于 2018年10月03日</view>
+                <view>农历 2018年八月二十四 举办婚礼</view>
+                <view bindtap="markertap">地址：保定市博野县基督教堂(点击导航)</view>
                 <view>恭请您的光临</view>
             </view>
             <image class="we" src='/images/we.png'></image>

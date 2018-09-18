@@ -3,16 +3,13 @@ var app = getApp()
 //数据可用接口返回 - 在此展示只是为了方便查看数据体
 Page({
   data: {
-    imgUrls: [{
-        imgUrl: 'https://pengmaster.com/party/wechat/marry/tai_miao_zip/HY2A0764.jpg',
-        type: '别致角楼'
-      },
+    imgUrls: [
       {
         imgUrl: 'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1165.jpg',
         type: '欧洲风情'
       },
       {
-        imgUrl: 'https://pengmaster.com/party/wechat/marry/fhjr_zip/HY2A1065.jpg',
+        imgUrl: 'http://127.0.0.1:8080/party/wechat/marry/picture/LCH_3664.JPG',
         type: '粉红佳人'
       },
       {

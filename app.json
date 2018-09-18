@@ -22,25 +22,19 @@
         "pagePath": "pages/home/home",
         "iconPath": "image/tab/ic_home_normal.png",
         "selectedIconPath": "image/tab/ic_home_select.png",
-        "text": "首页"
+        "text": "甜蜜相册"
       },
       {
         "pagePath": "pages/map/map",
         "iconPath": "image/tab/ic_nav_normal.png",
         "selectedIconPath": "image/tab/ic_nav_select.png",
-        "text": "导航"
+        "text": "邀请函"
       },
       {
         "pagePath": "pages/bless/bless",
         "iconPath": "image/tab/ic_heart_normal.png",
         "selectedIconPath": "image/tab/ic_heart_select.png",
-        "text": "祝福"
-      },
-      {
-        "pagePath": "pages/my/my",
-        "iconPath": "image/tab/meme-normal@2x.png",
-        "selectedIconPath": "image/tab/me-selected@2x.png",
-        "text": "我的"
+        "text": "祝福留言"
       }
     ],
     "position": "bottom",
