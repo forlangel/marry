@@ -9,7 +9,7 @@ Page({
         type: '欧洲风情'
       },
       {
-        imgUrl: 'http://127.0.0.1:8080/party/wechat/marry/picture/LCH_3664.JPG',
+        imgUrl: 'http://www.forlangel.cn:8080/party/wechat/marry/picture/LCH_3664.JPG',
         type: '粉红佳人'
       },
       {

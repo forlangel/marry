@@ -16,7 +16,7 @@
                 <view bindtap="markertap">地址：保定市博野县基督教堂(点击导航)</view>
                 <view>恭请您的光临</view>
             </view>
-            <image class="we" src='/images/we.png'></image>
+            <!--<image class="we" src='/images/we.png'></image>-->
         </view>
     </view>
 </view>

@@ -1,5 +1,5 @@
 //base地址 47.104.198.222
-const host = 'http://localhost:8080/party/'
+const host = 'http://www.forlangel.cn:8080/party/'
 // const host = 'http://localhost:8080/party/'
 const image = host + 'wechat/image/'
 const marry = host + 'wechat/marry/'
