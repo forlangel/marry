@@ -41,8 +41,8 @@ Page({
   markertap(e) {
     console.log(e.markerId)
     wx.openLocation({
-      latitude: 37.895525,
-      longitude: 117.398193,
+      latitude: 38.4562410865,
+      longitude: 115.4713392082,
       scale: 18,
       name: '',
       address: ''

@@ -8,7 +8,7 @@
     "pages/home/home",
     "pages/my/aboutus/aboutus",
     "pages/bless/blessDetail/blessDetail",
-    "pages/my/aboutProject/aboutProject"
+    "pages/chat/chat"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -31,10 +31,16 @@
         "text": "邀请函"
       },
       {
-        "pagePath": "pages/bless/bless",
+        "pagePath": "pages/bless/blessDetail/blessDetail",
         "iconPath": "image/tab/ic_heart_normal.png",
         "selectedIconPath": "image/tab/ic_heart_select.png",
-        "text": "祝福留言"
+        "text": "祝福"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "iconPath": "image/tab/ic_heart_normal.png",
+        "selectedIconPath": "image/tab/ic_heart_select.png",
+        "text": "留言"
       }
     ],
     "position": "bottom",

@@ -25,10 +25,7 @@ Page({
         })
       }
     }),
-      that.getPraiseList(),
-
-      that.getCommentList()
-    
+      that.getPraiseList()    
   },
 
   /**

@@ -25,10 +25,7 @@ Page({
         })
       }
     }),
-    that.getPraiseList(),
-    
-    that.getCommentList()
-    
+    that.getPraiseList()    
   },
 
   /**
@@ -76,23 +73,7 @@ Page({
    */
   onReachBottom: function () {
 
-  },
-  // 获取评论列表
-  getCommentList: function () {
-    var that = this
-    wx.request({
-      url: api.mobileIn,
-      method: 'GET',
-      data: {},
-      header: { method: 'GET_COMMENT' },
-      success: function (res) {
-        console.log(res.data)
-        that.setData({
-          chatList: res.data
-        });
-      }
-    })
-  },
+  },  
   // 获取赞列表
   getPraiseList: function () {
     var that = this
@@ -172,45 +153,5 @@ Page({
         }
       }
     })
-  },
-  foo: function () {
-    var that = this;
-    if (that.data.inputValue) {
-      //留言内容不是空值
-
-      var userInfo = that.data.userInfo;
-      var name = userInfo.nickName;
-      var face = userInfo.avatarUrl;
-      var words = that.data.inputValue;
-      wx.request({
-        url: api.mobileIn,
-        data: { 'nickName': name, 'nickImage': face, 'comment': words, 'openId': app.globalData.openId },
-        header: { method: 'SAVE_COMMENT' },
-        method: "GET",
-        dataType: "json",
-        success: res => {
-          if (200 == res.statusCode) {
-            console.log(res.data)
-            that.getCommentList()
-            wx.showModal({
-              title: '提示',
-              content: res.data,
-              showCancel: false
-            })
-          }
-        }
-      })
-    } else {
-      //Catch Error
-      wx.showModal({
-        title: '提示',
-        content: '您还没有填写内容',
-        showCancel: false
-      })
-    }
-    that.setData({
-      inputValue: ''//将data的inputValue清空
-    });
-    return;
   }
 })
