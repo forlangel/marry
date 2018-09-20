@@ -2,63 +2,55 @@
 var id = ''
 //为方便查看数据格式，写死在这里，后续可接口返回
 var imgUrlOzfq = [
-  'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1165.jpg',
-  'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1139.jpg',
-  'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1167.jpg',
-  'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1138.jpg',
-  'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1168.jpg',
-  'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1136.jpg',
-  'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1171.jpg',
-  'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1176.jpg'
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3291.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3296.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3319.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3245.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3255.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3263.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3165.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3167.JPG'
 ]
 var imgUrlHuahai = [
-  'https://pengmaster.com/party/wechat/marry/huahai_zip/HY2A0893.jpg',
-  'https://pengmaster.com/party/wechat/marry/huahai_zip/HY2A0899.jpg',
-  'https://pengmaster.com/party/wechat/marry/huahai_zip/HY2A0885.jpg',
-  'https://pengmaster.com/party/wechat/marry/huahai_zip/HY2A0895.jpg',
-  'https://pengmaster.com/party/wechat/marry/huahai_zip/HY2A0888.jpg',
-  'https://pengmaster.com/party/wechat/marry/huahai_zip/HY2A0889.jpg'
+  'https://www.forlangel.cn/party/wechat/marry/picture/HY2A0893.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/HY2A0899.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/HY2A0885.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/HY2A0895.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/HY2A0888.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/HY2A0889.JPG'
 ]
 var imgUrlFhjr = [
-  'https://pengmaster.com/party/wechat/marry/fhjr_zip/HY2A1065.jpg',
-  'https://pengmaster.com/party/wechat/marry/fhjr_zip/HY2A1068.jpg',
-  'https://pengmaster.com/party/wechat/marry/fhjr_zip/HY2A1069.jpg',
-  'https://pengmaster.com/party/wechat/marry/fhjr_zip/HY2A1072.jpg',
-  'https://pengmaster.com/party/wechat/marry/fhjr_zip/HY2A1079.jpg'
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3449.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3666.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3681.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3682.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3685.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3699.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3682.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3704.JPG'
 ]
 var imgUrlDqdy = [
-  'https://pengmaster.com/party/wechat/marry/dqdy_zip/HY2A1159.jpg',
-  'https://pengmaster.com/party/wechat/marry/dqdy_zip/HY2A1160.jpg',
-  'https://pengmaster.com/party/wechat/marry/dqdy_zip/HY2A0921.jpg',
-  'https://pengmaster.com/party/wechat/marry/dqdy_zip/HY2A1146.jpg',
-  'https://pengmaster.com/party/wechat/marry/dqdy_zip/HY2A1157.jpg'
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3337.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3647.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3631.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3611.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3753.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3755.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3799.JPG'
 ]
 var imgUrlGwtx = [
-  'https://pengmaster.com/party/wechat/marry/gwtx_zip/HY2A1088.jpg',
-  'https://pengmaster.com/party/wechat/marry/gwtx_zip/HY2A1103.jpg',
-  'https://pengmaster.com/party/wechat/marry/gwtx_zip/HY2A1123.jpg',
-  'https://pengmaster.com/party/wechat/marry/gwtx_zip/HY2A1093.jpg',
-  'https://pengmaster.com/party/wechat/marry/gwtx_zip/HY2A1114.jpg',
-  'https://pengmaster.com/party/wechat/marry/gwtx_zip/HY2A1128.jpg',
-  'https://pengmaster.com/party/wechat/marry/gwtx_zip/HY2A1106.jpg',
-  'https://pengmaster.com/party/wechat/marry/gwtx_zip/HY2A1117.jpg'
-]
-var imgUrlZgf = [
-  'https://pengmaster.com/party/wechat/marry/zgf_zip/HY2A1049.jpg',
-  'https://pengmaster.com/party/wechat/marry/zgf_zip/HY2A1038.jpg',
-  'https://pengmaster.com/party/wechat/marry/zgf_zip/HY2A1062.jpg'
-]
-var imgUrlJb = [
-  'https://pengmaster.com/party/wechat/marry/jbytj_zip/HY2A1214.jpg',
-  'https://pengmaster.com/party/wechat/marry/jbytj_zip/HY2A1249.jpg',
-  'https://pengmaster.com/party/wechat/marry/jbytj_zip/HY2A1258.jpg',
-  'https://pengmaster.com/party/wechat/marry/jbytj_zip/HY2A1263.jpg',
-  'https://pengmaster.com/party/wechat/marry/jbytj_zip/HY2A1266.jpg'
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3356.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3360.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3376.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3391.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3395.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3404.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3406.JPG'
 ]
 var imgUrlLyxz = [
-  'https://pengmaster.com/party/wechat/marry/lyxz_zip/HY2A0868.jpg',
-  'https://pengmaster.com/party/wechat/marry/lyxz_zip/HY2A0866.jpg',
-  'https://pengmaster.com/party/wechat/marry/lyxz_zip/HY2A0873.jpg'
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3225.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3230.JPG',
+  'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3237.JPG'
 ]
 Page({
 
@@ -78,12 +70,7 @@ Page({
         current: current, // 当前显示图片的http链接
         urls: imgUrlOzfq // 需要预览的图片http链接列表
       })
-    } else if (id == '绿叶红花') {
-      wx.previewImage({
-        current: current, // 当前显示图片的http链接
-        urls: imgUrlHuahai // 需要预览的图片http链接列表
-      })
-    } else if (id == '粉红佳人') {
+    } else if (id == '粉色浪漫') {
       wx.previewImage({
         current: current, // 当前显示图片的http链接
         urls: imgUrlFhjr // 需要预览的图片http链接列表
@@ -93,20 +80,10 @@ Page({
         current: current, // 当前显示图片的http链接
         urls: imgUrlDqdy // 需要预览的图片http链接列表
       })
-    } else if (id == '狗娃特写') {
+    } else if (id == '逗比特写') {
       wx.previewImage({
         current: current, // 当前显示图片的http链接
         urls: imgUrlGwtx // 需要预览的图片http链接列表
-      })
-    } else if (id == '中国风') {
-      wx.previewImage({
-        current: current, // 当前显示图片的http链接
-        urls: imgUrlZgf // 需要预览的图片http链接列表
-      })
-    } else if (id == '酒吧一条街') {
-      wx.previewImage({
-        current: current, // 当前显示图片的http链接
-        urls: imgUrlJb // 需要预览的图片http链接列表
       })
     } else if (id == '绿野仙踪') {
       wx.previewImage({
@@ -126,87 +103,71 @@ Page({
     if (id == '欧洲风情') {
       that.setData({
         imgUrls: [{
-          imgUrl: 'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1165.jpg',
+          imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3291.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1139.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3296.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1167.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3319.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1138.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3245.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1168.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3255.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1136.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3263.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1171.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3165.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1176.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3167.JPG',
+            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
+          },
+          {
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3169.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           }
         ]
       });
-    } else if (id == '绿叶红花') {
+    }else if (id == '粉色浪漫') {
       that.setData({
         imgUrls: [{
-          imgUrl: 'https://pengmaster.com/party/wechat/marry/huahai_zip/HY2A0893.jpg',
+          imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3449.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/huahai_zip/HY2A0899.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3666.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/huahai_zip/HY2A0885.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3681.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/huahai_zip/HY2A0895.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3685.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/huahai_zip/HY2A0888.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3699.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/huahai_zip/HY2A0889.jpg',
-            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
-          }
-        ]
-      });
-    } else if (id == '粉红佳人') {
-      that.setData({
-        imgUrls: [{
-          imgUrl: 'https://pengmaster.com/party/wechat/marry/fhjr_zip/HY2A1065.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3682.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/fhjr_zip/HY2A1068.jpg',
-            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
-          },
-          {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/fhjr_zip/HY2A1069.jpg',
-            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
-          },
-          {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/fhjr_zip/HY2A1072.jpg',
-            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
-          },
-          {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/fhjr_zip/HY2A1079.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3704.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           }
         ]
@@ -214,99 +175,63 @@ Page({
     } else if (id == '大气典雅') {
       that.setData({
         imgUrls: [{
-          imgUrl: 'https://pengmaster.com/party/wechat/marry/dqdy_zip/HY2A1159.jpg',
+          imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3337.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/dqdy_zip/HY2A1160.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3647.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/dqdy_zip/HY2A0921.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3631.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/dqdy_zip/HY2A1146.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3611.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/dqdy_zip/HY2A1157.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3753.JPG',
+            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
+          },
+          {
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3755.JPG',
+            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
+          },
+          {
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3799.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           }
         ]
       });
-    } else if (id == '狗娃特写') {
+    } else if (id == '逗比特写') {
       that.setData({
         imgUrls: [{
-          imgUrl: 'https://pengmaster.com/party/wechat/marry/gwtx_zip/HY2A1088.jpg',
+          imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3356.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/gwtx_zip/HY2A1103.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3360.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/gwtx_zip/HY2A1123.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3376.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/gwtx_zip/HY2A1093.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3391.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/gwtx_zip/HY2A1114.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3395.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/gwtx_zip/HY2A1128.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3404.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/gwtx_zip/HY2A1106.jpg',
-            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
-          },
-          {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/gwtx_zip/HY2A1117.jpg',
-            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
-          }
-        ]
-      });
-    } else if (id == '中国风') {
-      that.setData({
-        imgUrls: [{
-          imgUrl: 'https://pengmaster.com/party/wechat/marry/zgf_zip/HY2A1049.jpg',
-            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
-          },
-          {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/zgf_zip/HY2A1038.jpg',
-            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
-          },
-          {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/zgf_zip/HY2A1062.jpg',
-            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
-          }
-        ]
-      });
-    } else if (id == '酒吧一条街') {
-      that.setData({
-        imgUrls: [{
-          imgUrl: 'https://pengmaster.com/party/wechat/marry/jbytj_zip/HY2A1214.jpg',
-            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
-          },
-          {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/jbytj_zip/HY2A1249.jpg',
-            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
-          },
-          {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/jbytj_zip/HY2A1258.jpg',
-            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
-          },
-          {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/jbytj_zip/HY2A1263.jpg',
-            desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
-          },
-          {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/jbytj_zip/HY2A1266.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3406.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           }
         ]
@@ -314,15 +239,15 @@ Page({
     } else if (id == '绿野仙踪') {
       that.setData({
         imgUrls: [{
-          imgUrl: 'https://pengmaster.com/party/wechat/marry/lyxz_zip/HY2A0868.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3225.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/lyxz_zip/HY2A0866.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3230.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           },
           {
-            imgUrl: 'https://pengmaster.com/party/wechat/marry/lyxz_zip/HY2A0873.jpg',
+            imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3237.JPG',
             desc: '不管你走在哪里我都会站在你看得见的地方如果有委屈有过错只要你回头我始终站在你的身后'
           }
         ]

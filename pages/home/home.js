@@ -5,39 +5,25 @@ Page({
   data: {
     imgUrls: [
       {
-        imgUrl: 'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1165.jpg',
+        imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3279.JPG',
         type: '欧洲风情'
       },
       {
-        imgUrl: 'http://www.forlangel.cn:8080/party/wechat/marry/picture/LCH_3664.JPG',
-        type: '粉红佳人'
+        imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3664.JPG',
+        type: '粉色浪漫'
+      },      
+      {
+        imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3220.JPG',
+        type: '绿野仙踪'
       },
       {
-        imgUrl: 'https://pengmaster.com/party/wechat/marry/dqdy_zip/HY2A1159.jpg',
+        imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3335.JPG',
         type: '大气典雅'
       },
       {
-        imgUrl: 'https://pengmaster.com/party/wechat/marry/gwtx_zip/HY2A1088.jpg',
-        type: '狗娃特写'
-      },
-      {
-        imgUrl: 'https://pengmaster.com/party/wechat/marry/zgf_zip/HY2A1049.jpg',
-        type: '中国风'
-      },
-      {
-        imgUrl: 'https://pengmaster.com/party/wechat/marry/jbytj_zip/HY2A1214.jpg',
-        type: '酒吧一条街'
-      },
-      {
-        imgUrl: 'https://pengmaster.com/party/wechat/marry/huahai_zip/HY2A0893.jpg',
-        type: '绿叶红花'
-      },
-      {
-        imgUrl: 'https://pengmaster.com/party/wechat/marry/lyxz_zip/HY2A0868.jpg',
-        type: '绿野仙踪'
+        imgUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/LCH_3359.JPG',
+        type: '逗比特写'
       }
-
-
     ],
     indicatorDots: true,
     autoplay: true,
@@ -47,13 +33,13 @@ Page({
     item_one_image: 'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
     userInfo: {},
     isPlayingMusic: true,
-    music_url: "http://dl.stream.qqmusic.qq.com/C100000gSW7F2IKT1w.m4a?fromtag=46"
+    music_url: "http://111.202.85.146/amobile.music.tc.qq.com/C400000b2FOH08rJZ4.m4a?guid=3604957086&vkey=23B8EE9CD729269EF29C2A2D7F1A53161F51BF83C4B66E52BFB863024450D34CCAD34F1EA6E83AB487E0DD7E5247A53AA6F9D35C41531D4A&uin=0&fromtag=66"
   },
   //生命周期函数--监听页面加载
   onLoad: function() {
     var that = this
     wx.playBackgroundAudio({
-      dataUrl: "http://dl.stream.qqmusic.qq.com/C100000gSW7F2IKT1w.m4a?fromtag=46",
+      dataUrl: "http://111.202.85.146/amobile.music.tc.qq.com/C400000b2FOH08rJZ4.m4a?guid=3604957086&vkey=23B8EE9CD729269EF29C2A2D7F1A53161F51BF83C4B66E52BFB863024450D34CCAD34F1EA6E83AB487E0DD7E5247A53AA6F9D35C41531D4A&uin=0&fromtag=66",
       title: '',
       coverImgUrl: ''
     }),

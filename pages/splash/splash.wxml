@@ -6,7 +6,7 @@
   <text class="title">Marry</text>
     <view class="content">
       <view class="hd" style="transform:rotateZ({{angle}}deg);">
-          <image class="logo" src="http://www.forlangel.cn:8080/party/wechat/marry/picture/LCH_3574.JPG"></image>
+          <image class="logo" src="https://www.forlangel.cn/party/wechat/marry/picture/logo.jpg"></image>
           <image class="wave" src="{{wave}}" mode="aspectFill"></image>
           <image class="wave wave-bg" src="{{wave}}" mode="aspectFill"></image>
       </view>

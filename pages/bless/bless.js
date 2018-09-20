@@ -112,7 +112,7 @@ Page({
     //console.log(that.data);
     return {
       title: '诚意邀请你参加我们的婚礼',
-      imageUrl: 'https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1167.jpg',
+      imageUrl: 'https://www.forlangel.cn/party/wechat/marry/picture/share.jpg',
       path: "pages/splash/splash",
       success: function (res) {
         wx.showToast({
